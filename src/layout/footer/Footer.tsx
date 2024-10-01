@@ -1,36 +1,13 @@
-import styled from "styled-components";
 import { Container } from "../../components/Container";
-import { theme } from "../../styles/Theme";
+import React from "react";
+import { S } from "./Footer_Styles";
 
-export function Footer() {
+export const Footer: React.FC = () => {
 	return (
-		<StyledFooter>
+		<S.Footer>
 			<Container>
-				<Text>Design By Rauliqbal</Text>
+				<S.Text>Design By Kirill Nazarov 2024</S.Text>
 			</Container>
-		</StyledFooter>
+		</S.Footer>
 	);
-}
-
-const StyledFooter = styled.section`
-
-	&::after {
-		content: "";
-		display: inline-block;
-		width: 100%;
-		height: 100%;
-		background-image: url(../../assets/images/footer.svg);
-		background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-	}
-`;
-
-const Text = styled.p`
-	color: ${theme.colors.background};
-	text-align: center;
-	padding: 236px 0 20px;
-	font-size: 35px;
-	font-weight: 400;
-	letter-spacing: 1.925px;
-`;
+};

@@ -1,13 +1,13 @@
-import styled from "styled-components";
 import { Container } from "../../../components/Container";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { SectionTitle } from "../../../components/SectionTitle";
 import { Passion } from "./Passion/Passion";
-import ellipse from "../../../assets/images/ellipse.svg";
+import React from "react";
+import { S } from "./Passions_Styles";
 
-export function Passions() {
+export const Passions: React.FC = () => {
 	return (
-		<StyledPassions>
+		<S.Passions>
 			<Container>
 				<SectionTitle>
 					Additional <span>passions</span>
@@ -33,34 +33,6 @@ export function Passions() {
 					/>
 				</FlexWrapper>
 			</Container>
-		</StyledPassions>
+		</S.Passions>
 	);
-}
-
-const StyledPassions = styled.section`
-	padding-top: 118px;
-	
-
-	& ${Container} {
-		position: relative;
-
-		& ${SectionTitle} {
-		&::after {
-			content: "";
-			display: inline-block;
-			width: 115px;
-			height: 104px;
-			background-image: url(${ellipse});
-			background-size: cover;
-
-			position: absolute;
-			bottom: 0;
-			left: 0;
-		}
-	}
-	}
-	
-	
-
-`;
-
+};

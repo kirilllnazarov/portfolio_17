@@ -1,36 +1,44 @@
 import React from "react";
 import { Container } from "../../../components/Container";
-import styled from "styled-components";
 import { SectionTitle } from "../../../components/SectionTitle";
 import { FlexWrapper } from "../../../components/FlexWrapper";
-import imageBgc from "../../../assets/images/contactBgc.svg";
 import { Contact } from "./Contact/Contact";
+import { S } from "./Contacts_Styles";
 
+const contactsData = [
+	{
+		iconId: "github",
+		titleLink: "Github",
+	},
+	{
+		iconId: "instagram",
+		titleLink: "Instagram",
+	},
+	{
+		iconId: "email",
+		titleLink: "Email",
+	},
+	{
+		iconId: "telp",
+		titleLink: "Telp",
+	},
+];
 
-export function Contacts() {
+export const Contacts: React.FC = () => {
 	return (
-		<StyledContacts>
+		<S.Contacts>
 			<Container>
 				<SectionTitle>
 					Contact <span>Me</span>
 				</SectionTitle>
 				<FlexWrapper wrap={"wrap"} justify="space-between">
-					<Contact iconId={"github"} titleLink={"Github"} />
-					<Contact iconId={"instagram"} titleLink={"Instagram"} />
-					<Contact iconId={"email"} titleLink={"Email"} />
-					<Contact iconId={"telp"} titleLink={"Telp"} />
-                    
+					{contactsData.map((c, i) => {
+						return (
+							<Contact key={i} iconId={c.iconId} titleLink={c.titleLink} />
+						);
+					})}
 				</FlexWrapper>
 			</Container>
-		</StyledContacts>
+		</S.Contacts>
 	);
-}
-
-const StyledContacts = styled.section`
-	padding-top: 168px;
-    max-width: 100%;
-
-	& ${FlexWrapper} {
-		padding: 60px 38px 0 38px;
-	}
-`;
+};

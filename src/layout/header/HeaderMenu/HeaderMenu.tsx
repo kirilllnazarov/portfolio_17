@@ -1,41 +1,23 @@
-import styled from "styled-components";
+import React from "react";
+import { S } from "../Header_Styles";
+
 
 type HeaderMenyType = {
 	menuItems: Array<string>;
 };
 
-export function HeaderMenu(props: HeaderMenyType) {
+export const HeaderMenu: React.FC<HeaderMenyType>=(props: HeaderMenyType) =>{
 	return (
-		<StyledHeaderMeny>
-			<UnodoredList>
+		<S.HeaderMeny>
+			<S.HeaderMenyList>
 				{props.menuItems.map((el, i) => {
 					return (
-						<ListItem key={i}>
-							<Link href={"#"}>{el}</Link>
-						</ListItem>
+						<S.HeaderMenyItem key={i}>
+							<S.HeaderMenyLink href={"#"}>{el}</S.HeaderMenyLink>
+						</S.HeaderMenyItem>
 					);
 				})}
-			</UnodoredList>
-		</StyledHeaderMeny>
+			</S.HeaderMenyList>
+		</S.HeaderMeny>
 	);
 }
-
-const StyledHeaderMeny = styled.nav`
-
-`;
-
-const UnodoredList = styled.ul`
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 45px;
-`;
-
-const ListItem = styled.li``;
-
-const Link = styled.a`
-	font-size: 25px;
-	font-weight: 400;
-	letter-spacing: 1.375px;
-  width: 100%;
-`;
