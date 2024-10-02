@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { FlexWrapper } from "../../../components/FlexWrapper";
+import contactBgc from '../../../assets/images/contactBgc.svg'
 
 const Contacts = styled.section`
 	padding-top: 168px;
@@ -11,22 +12,22 @@ const Contacts = styled.section`
 `;
 
 const Contact = styled.div`
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-align-items: center;
-overflow: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
 `;
 
-const IconWrapper = styled.a`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	background-color: #608AF5;
+const IconWrapper = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(${contactBgc});
 	background-size: cover;
 	width: 166px;
 	height: 160px;
-    `
+`;
 
 const Link = styled.a`
 	padding-top: 60px;
@@ -34,15 +35,16 @@ const Link = styled.a`
 	font-family: Poppins;
 	font-size: 35px;
 	font-weight: 400;
-	letter-spacing: 1.925px;
+
 
 	&:hover {
 		font-weight: 500;
 	}
 `;
 
-
-
 export const S = {
-    Contacts,Contact,IconWrapper,Link
-}
+	Contacts,
+	Contact,
+	IconWrapper,
+	Link,
+};

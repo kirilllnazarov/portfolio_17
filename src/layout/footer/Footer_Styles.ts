@@ -1,17 +1,12 @@
 import styled from "styled-components";
 import { theme } from "../../styles/Theme";
+import footerBgc from '../../assets/images/footer.svg'
 
 const Footer = styled.section`
-	&::after {
-		content: "";
-		display: inline-block;
-		width: 100%;
-		height: 100%;
-		background-image: url(../../assets/images/footer.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
+	background-image: url(${footerBgc});
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 1170px;
 `;
 
 const Text = styled.p`

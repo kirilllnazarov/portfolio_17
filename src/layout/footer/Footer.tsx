@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
 	return (
 		<S.Footer>
 			<Container>
-				<S.Text>Design By Kirill Nazarov 2024</S.Text>
+				<S.Text>Design By Rauliqbal</S.Text>
 			</Container>
 		</S.Footer>
 	);
