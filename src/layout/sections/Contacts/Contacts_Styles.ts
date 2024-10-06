@@ -12,6 +12,7 @@ const Contacts = styled.section`
 
 		@media ${theme.media.mobile} {
 			justify-content: center;
+			gap: 70px
 		}
 	}
 
@@ -36,6 +37,7 @@ const IconWrapper = styled.div`
 	background-size: cover;
 	width: 166px;
 	height: 160px;
+
 `;
 
 const Link = styled.a`
@@ -47,6 +49,11 @@ const Link = styled.a`
 
 	&:hover {
 		font-weight: 500;
+	}
+
+	@media ${theme.media.mobile} {
+		padding-top: 30px;
+
 	}
 `;
 
