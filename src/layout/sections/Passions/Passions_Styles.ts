@@ -3,6 +3,7 @@ import { Container } from "../../../components/Container";
 import { SectionTitle } from "../../../components/SectionTitle";
 import ellipse from "../../../assets/images/ellipse.svg";
 import { theme } from "../../../styles/Theme";
+import { FlexWrapper } from "../../../components/FlexWrapper";
 
 const Passions = styled.section`
 	padding-top: 118px;
@@ -22,7 +23,22 @@ const Passions = styled.section`
 				position: absolute;
 				bottom: 0;
 				left: 0;
+
+				@media ${theme.media.mobile} {
+					display: none;
+				}
 			}
+		}
+	}
+
+	@media ${theme.media.mobile} {
+		padding-top: 70px;
+	}
+
+	& ${FlexWrapper} {
+		@media ${theme.media.mobile} {
+			gap: 30px;
+			justify-content: center;
 		}
 	}
 `;
@@ -37,7 +53,7 @@ const Passion = styled.div`
 	width: 346px;
 	height: 280px;
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 `;
 
 const Title = styled.h2`

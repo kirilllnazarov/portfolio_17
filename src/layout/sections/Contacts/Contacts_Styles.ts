@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { FlexWrapper } from "../../../components/FlexWrapper";
-import contactBgc from '../../../assets/images/contactBgc.svg'
+import contactBgc from "../../../assets/images/contactBgc.svg";
+import { theme } from "../../../styles/Theme";
 
 const Contacts = styled.section`
 	padding-top: 168px;
@@ -8,6 +9,14 @@ const Contacts = styled.section`
 
 	& ${FlexWrapper} {
 		padding: 60px 38px 0 38px;
+
+		@media ${theme.media.mobile} {
+			justify-content: center;
+		}
+	}
+
+	@media ${theme.media.mobile} {
+		padding-top: 70px;
 	}
 `;
 
@@ -35,7 +44,6 @@ const Link = styled.a`
 	font-family: Poppins;
 	font-size: 35px;
 	font-weight: 400;
-
 
 	&:hover {
 		font-weight: 500;

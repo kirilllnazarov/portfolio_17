@@ -6,7 +6,7 @@ import React from "react";
 
 export const Main: React.FC = () => {
 	return (
-		<S.Main>
+		<S.Main id={'about'}>
 			<Container>
 				<FlexWrapper align="center" justify="space-between" wrap="wrap">
 					<S.Text>

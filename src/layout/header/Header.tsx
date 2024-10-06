@@ -5,7 +5,24 @@ import { S } from "./Header_Styles";
 import { HeaderMenu } from "./HeaderMenu/HeaderMenu";
 import React from "react";
 
-const headerItems = ["About", "Passions", "Portfolio", "Contact Me"];
+export const headerItems = [
+	{
+		title: "About",
+		ancor: "about",
+	},
+	{
+		title: "Passions",
+		ancor: "passions",
+	},
+	{
+		title: "Portfolio",
+		ancor: "portfolio",
+	},
+	{
+		title: "Contact Me",
+		ancor: "contact",
+	},
+];
 
 export const Header: React.FC = () => {
 	return (

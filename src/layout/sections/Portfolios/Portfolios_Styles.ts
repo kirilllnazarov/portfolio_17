@@ -10,7 +10,7 @@ const Portfolio = styled.div`
 	max-width: 348px;
 	width: 100%;
 	height: 100%;
-	outline: 1px dotted red;
+	/* outline: 1px dotted red; */
 	overflow: auto;
 `;
 
@@ -20,7 +20,7 @@ const PortfolioWrapper = styled.div`
 	flex-direction: column;
 	justify-content: start;
 
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 `;
 
 const Title = styled.h2`

@@ -22,27 +22,12 @@ const portfolioData = [
 
 export const Portfolios: React.FC = () => {
 	return (
-		<S.Portfolios>
+		<S.Portfolios id={'portfolio'}>
 			<Container>
 				<SectionTitle>
 					My <span>Portfolio</span>
 				</SectionTitle>
 				<FlexWrapper justify="space-between" wrap="wrap">
-{/* 
-					{portfolioData.map((p, i) => {return(
-						<Portfolio
-						iconId={"eLogo"}
-						iconWidth={"50"}
-						iconHeight={"50"}
-						viewBox={"0 0 50 50"}
-						fontFamily={""}
-						title={"Sendpay"}
-						imgage1x={sendpayImage1x}
-						imgage2x={sendpayImage2x}
-						imageDescription={"Sendpay"}
-					/>
-					)})} */}
-
 
 					<Portfolio
 						iconId={"eLogo"}

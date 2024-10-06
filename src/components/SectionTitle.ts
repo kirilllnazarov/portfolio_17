@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../styles/Theme";
 
 export const SectionTitle = styled.h2`
 	text-align: center;
@@ -13,5 +14,9 @@ export const SectionTitle = styled.h2`
 		font-size: 35px;
 		font-weight: 600;
 		letter-spacing: 1.925px;
+	}
+
+	@media ${theme.media.mobile} {
+		padding-bottom: 30px;
 	}
 `;

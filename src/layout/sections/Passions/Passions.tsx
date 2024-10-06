@@ -7,7 +7,7 @@ import { S } from "./Passions_Styles";
 
 export const Passions: React.FC = () => {
 	return (
-		<S.Passions>
+		<S.Passions id={'passions'}>
 			<Container>
 				<SectionTitle>
 					Additional <span>passions</span>

@@ -341,55 +341,6 @@
 		</defs>
 	</g>
 
-	<!-- ellipse -->
-
-	<g id="ellips-1">
-		<g filter="url(#filter0_f_12_1747)">
-			<ellipse cx="135.5" cy="130.5" rx="70.5" ry="65.5" fill="#0E85F3" fill-opacity="0.22" />
-		</g>
-		<defs>
-			<filter id="filter0_f_12_1747" x="0" y="0" width="271" height="261"
-				filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-				<feFlood flood-opacity="0" result="BackgroundImageFix" />
-				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-				<feGaussianBlur stdDeviation="32.5" result="effect1_foregroundBlur_12_1747" />
-			</filter>
-		</defs>
-	</g>
-
-	<g id="ellips-2">
-		<g filter="url(#filter0_f_12_1741)">
-			<ellipse cx="89.5" cy="90.5" rx="47.5" ry="48.5" fill="#0E85F3" fill-opacity="0.16" />
-		</g>
-		<defs>
-			<filter id="filter0_f_12_1741" x="0" y="0" width="179" height="181"
-				filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-				<feFlood flood-opacity="0" result="BackgroundImageFix" />
-				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-				<feGaussianBlur stdDeviation="21" result="effect1_foregroundBlur_12_1741" />
-			</filter>
-		</defs>
-	</g>
-
-	<g id="ellips-3">
-
-	</g>
-
-	<g id="ellips-4">
-
-	</g>
-
-	<g id="ellips-5">
-
-	</g>
-
-	<g id="ellips-6">
-
-	</g>
-
-	<g id="ellips-7">
-
-	</g>
 
 <!-- Portfolio svg -->
 <g id='sendpay'>
@@ -407,10 +358,6 @@
 		</defs>
 </g>
 
-<g id=''>
-
-</g>
-
 <g id='eLogo'>
 	<g clip-path="url(#clip0_12_1773)">
 		<path d="M0.477844 38.8077L15.22 23.428L3.90441 7.0921C3.34659 7.80929 2.94816 8.76554 2.86847 9.88116L-0.000280764 35.939C-0.0799683 37.0546 0.0794067 38.0109 0.477844 38.8077Z" fill="#6C63FF"/>
@@ -426,15 +373,18 @@
 		</defs>
 </g>
 
-<g id=''>
-
-</g>
-
 <!-- footer -->
 <g id="footer">
 	<path
 		d="M-201 330L-143.7 288.8C-86.4 247.6 28.2 165.2 142.8 165.2C257.4 165.2 372 247.6 486.6 247.6C601.2 247.6 715.8 165.2 830.4 151.552C945 136.875 1059.6 193.525 1174.2 178.847C1288.8 165.2 1403.4 82.8 1460.7 41.6L1518 0.399994V330H1460.7C1403.4 330 1288.8 330 1174.2 330C1059.6 330 945 330 830.4 330C715.8 330 601.2 330 486.6 330C372 330 257.4 330 142.8 330C28.2 330 -86.4 330 -143.7 330H-201Z"
 		fill="#4581F6" />
+</g>
+
+
+<g id='goTopBtn'>
+	<path
+	d="M13.8072 11.2806V22H16.1928V11.2806L21.3134 16.0812L23 14.5L15 7L7 14.5L8.6866 16.0812L13.8072 11.2806Z"
+	fill="white" />
 </g>
 
 </svg>

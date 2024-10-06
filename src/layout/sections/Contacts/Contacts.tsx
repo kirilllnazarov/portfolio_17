@@ -26,7 +26,7 @@ const contactsData = [
 
 export const Contacts: React.FC = () => {
 	return (
-		<S.Contacts>
+		<S.Contacts id={'contact'}>
 			<Container>
 				<SectionTitle>
 					Contact <span>Me</span>

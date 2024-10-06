@@ -16,6 +16,11 @@ const Text = styled.p`
 	font-size: 35px;
 	font-weight: 400;
 	letter-spacing: 1.925px;
+
+	@media ${theme.media.mobile} {
+		font-size: 25px;
+		padding: 196px 0 0;
+	}
 `;
 
 export const S = {
