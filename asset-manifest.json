@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/portfolio_17/static/js/main.4ea6f1ac.js",
+    "static/js/787.25eaef86.chunk.js": "/portfolio_17/static/js/787.25eaef86.chunk.js",
+    "static/media/photo.webp": "/portfolio_17/static/media/photo.6e31bda3340196beb253.webp",
+    "static/media/e-commerce-2x.jpg": "/portfolio_17/static/media/e-commerce-2x.6c49523cbfb250e61b45.jpg",
+    "static/media/bestLearning-2x.jpg": "/portfolio_17/static/media/bestLearning-2x.67d6948fcda483b36496.jpg",
+    "static/media/sendPay-2x.jpg": "/portfolio_17/static/media/sendPay-2x.feb351df17dc07e92f82.jpg",
+    "static/media/icon-sprite.svg": "/portfolio_17/static/media/icon-sprite.3b45c6b1f199132c23d00ec6478c0192.svg",
+    "static/media/e-commerce-1x.jpg": "/portfolio_17/static/media/e-commerce-1x.20af3589753b37f6ed29.jpg",
+    "static/media/bestLearning-1x.jpg": "/portfolio_17/static/media/bestLearning-1x.ba6b1fa8015417ec6cf5.jpg",
+    "static/media/sendPay-1x.jpg": "/portfolio_17/static/media/sendPay-1x.ea96b69fb07ad7f8ea26.jpg",
+    "index.html": "/portfolio_17/index.html",
+    "static/media/contactBgc.svg": "/portfolio_17/static/media/contactBgc.8d12ab204e3957e44feca1e740ca4d5c.svg",
+    "static/media/ellipse.svg": "/portfolio_17/static/media/ellipse.4cc15897f2558b101f4b33111652dbf4.svg",
+    "static/media/footer.svg": "/portfolio_17/static/media/footer.cb1f6352d46f24e7548d16bdb2ec41b7.svg",
+    "main.4ea6f1ac.js.map": "/portfolio_17/static/js/main.4ea6f1ac.js.map",
+    "787.25eaef86.chunk.js.map": "/portfolio_17/static/js/787.25eaef86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4ea6f1ac.js"
+  ]
+}
